@@ -41,18 +41,18 @@ const Header = () => {
         </div>
 
         {/* Satisfaction Text */}
-        <p className="text-[#DEFFB9] text-sm font-medium mb-4">
+        <p className="text-[#DEFFB9] text-sm font-medium mb-2">
           25k Customer satisfaction
         </p>
 
         {/* Main Heading */}
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-3">
           Powering the future <br />
           <span className="text-[#DEFFB9]">with clean energy</span>
         </h1>
 
         {/* Paragraph */}
-        <p className="text-gray-200 mb-8 leading-relaxed">
+        <p className="text-gray-200 mb-6 leading-relaxed">
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
           fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
           sequi.
