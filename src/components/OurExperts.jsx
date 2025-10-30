@@ -2,28 +2,28 @@ import { FaInstagram, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 const experts = [
   {
-    name: "Ethan Carter",
+    name: "Ansar ",
     role: "Chief Executive Officer",
     image:
       "https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/post-1.jpg",
   },
   {
-    name: "Olivia Bennett",
+    name: "Jai Kumar",
     role: "Head of Engineering",
     image:
-      "https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/post-2.jpg",
+      "https://img.freepik.com/free-photo/young-architect-standing-by-solar-panels-making-diagnostics-computer_1303-28126.jpg?semt=ais_hybrid&w=740&q=80",
   },
   {
-    name: "Brilianz Brandon",
+    name: "Waqar",
     role: "Project Manager",
     image:
       "https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/post-3.jpg",
   },
   {
-    name: "Sophia Martinez",
+    name: "Abdul Rehman",
     role: "Energy Consultant",
     image:
-      "https://img.freepik.com/free-photo/portrait-young-female-engineer-standing-solar-station-with-arms-crossed_1303-29951.jpg?w=500",
+      "https://img.freepik.com/free-photo/person-near-alternative-energy-plant_23-2149192726.jpg?semt=ais_hybrid&w=740&q=80",
   },
 ];
 

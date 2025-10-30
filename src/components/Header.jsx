@@ -26,17 +26,17 @@ const Header = () => {
           <img
             src={assets.img1}
             alt="Customer 1"
-            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg"
+            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg -mr-3 "
           />
           <img
             src={assets.img2}
             alt="Customer 2"
-            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg"
+            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg z-30"
           />
           <img
             src={assets.img3}
             alt="Customer 3"
-            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg"
+            className="w-12 h-12 rounded-full border-2 border-[#DEFFB9] shadow-lg -ml-3 "
           />
         </div>
 
