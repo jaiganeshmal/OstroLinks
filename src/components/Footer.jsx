@@ -75,16 +75,19 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2 text-sm text-gray-200">
             <li className="hover:text-[#DEFFB9] cursor-pointer transition">
-              Residential Solar
+              Solar Solution
             </li>
             <li className="hover:text-[#DEFFB9] cursor-pointer transition">
-              Commercial Solar
+              Solar Products
             </li>
             <li className="hover:text-[#DEFFB9] cursor-pointer transition">
-              Maintenance
+              Electrical Components
             </li>
             <li className="hover:text-[#DEFFB9] cursor-pointer transition">
-              Energy Audits
+              Cable Management
+            </li>
+            <li className="hover:text-[#DEFFB9] cursor-pointer transition">
+              UPVC Pipes manufacture
             </li>
           </ul>
         </div>
