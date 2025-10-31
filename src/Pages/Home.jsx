@@ -9,12 +9,14 @@ import ClientTestimonials from '../components/ClientTestimonials'
 import OurExperts from '../components/OurExperts'
 import ContactSection from '../components/ContactSection'
 import FaqSection from '../components/FaqSection'
+import AgendaSection from '../components/AgendaSection'
 
 const Home = () => {
     return (
         <>
             <Header />
             <AboutSection />
+            <AgendaSection />
             <VisionMissionSection />
             <ServicesSection />
             <WhyChooseUs />
