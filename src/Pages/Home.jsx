@@ -4,6 +4,7 @@ import Loader from "../components/Loader";
 import Roadmap from "../components/Roadmap";
 import ProjectsSection from "../components/ProjectsSection";
 
+// Lazy load heavy components for performance
 const AboutSection = lazy(() => import("../components/AboutSection"));
 const VisionMissionSection = lazy(() => import("../components/VisionMissionSection"));
 const ServicesSection = lazy(() => import("../components/ServicesSection"));
@@ -16,30 +17,29 @@ const FaqSection = lazy(() => import("../components/FaqSection"));
 const AgendaSection = lazy(() => import("../components/AgendaSection"));
 
 const Home = () => {
-    useEffect(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }, []);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
-    return (
-        <>
-            <Header />
-            {/* Suspense Loader */}
-            <Suspense fallback={<Loader />}>
-                <AboutSection />
-                <AgendaSection />
-                <Roadmap />
-                <ProjectsSection />
-                <VisionMissionSection />
-                <ServicesSection />
-                <WhyChooseUs />
-                <SolarProjects />
-                <ClientTestimonials />
-                <OurExperts />
-                <ContactSection />
-                <FaqSection />
-            </Suspense>
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Suspense fallback={<Loader />}>
+        <AboutSection />
+        <VisionMissionSection />
+        <Roadmap />
+        <ServicesSection />
+        <ProjectsSection />
+        <SolarProjects />
+        <WhyChooseUs />
+        <ClientTestimonials />
+        <OurExperts />
+        <AgendaSection />
+        <ContactSection />
+        <FaqSection />
+      </Suspense>
+    </>
+  );
 };
 
 export default Home;

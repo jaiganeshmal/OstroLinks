@@ -30,7 +30,7 @@ const steps = [
 
 const Roadmap = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#f7fdfa] to-[#ecf7f3] py-10 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#f7fdfa] to-[#ecf7f3] py-14 overflow-hidden">
       {/* Title */}
       <div className="text-center mb-3">
         <h2 className="text-5xl font-extrabold text-[#052A1F]">
