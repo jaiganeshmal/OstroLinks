@@ -1,6 +1,8 @@
 import React, { useEffect, Suspense, lazy } from "react";
 import Header from "../components/Header";
 import Loader from "../components/Loader";
+import Roadmap from "../components/Roadmap";
+import ProjectsSection from "../components/ProjectsSection";
 
 const AboutSection = lazy(() => import("../components/AboutSection"));
 const VisionMissionSection = lazy(() => import("../components/VisionMissionSection"));
@@ -25,6 +27,8 @@ const Home = () => {
             <Suspense fallback={<Loader />}>
                 <AboutSection />
                 <AgendaSection />
+                <Roadmap />
+                <ProjectsSection />
                 <VisionMissionSection />
                 <ServicesSection />
                 <WhyChooseUs />

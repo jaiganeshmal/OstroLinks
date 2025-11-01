@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const VisionMissionSection = () => {
   return (
-    <section className="w-full py-10 bg-white">
+    <section className="w-full py-8 bg-white">
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8 items-stretch">
 
         {/* LEFT BOX */}

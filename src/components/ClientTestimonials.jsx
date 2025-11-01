@@ -33,7 +33,7 @@ const testimonials = [
 
 const ClientTestimonials = () => {
   return (
-    <section className="bg-[#f0f9f5] py-10 px-6 md:px-16">
+    <section className="bg-[#f0f9f5] py-8 px-6 md:px-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
         {/* LEFT CONTENT */}
         <div className="md:w-1/2 self-start md:sticky md:top-20">

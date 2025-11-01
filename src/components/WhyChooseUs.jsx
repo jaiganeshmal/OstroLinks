@@ -26,10 +26,10 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="w-full py-10 bg-white">
+    <section className="w-full py-8 bg-white">
       <div className="container mx-auto px-6 md:px-10 flex flex-col md:flex-row items-start gap-10">
         {/* LEFT SIDE */}
-        <div className="md:w-1/2 space-y-6">
+        <div className="md:w-1/2 space-y-4">
           {/* Label */}
           <p className="text-sm text-[#19745A] uppercase tracking-widest font-semibold">
             🌱 Why Choose Us
@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="md:w-1/2 flex flex-col gap-5">
+        <div className="md:w-1/2 flex flex-col gap-4">
           {features.map((feature, index) => (
             <div
               key={index}

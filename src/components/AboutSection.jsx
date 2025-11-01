@@ -26,7 +26,7 @@ const points = [
 
 const AboutSection = () => {
   return (
-    <section className="w-full py-10 bg-gradient-to-b from-white to-[#f4faf7] px-6 md:px-12">
+    <section className="w-full py-8 bg-gradient-to-b from-white to-[#f4faf7] px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-6">

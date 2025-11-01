@@ -34,7 +34,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="w-[95%] mx-auto bg-[#052A1F] py-10 rounded-xl ">
+    <section className="w-[95%] mx-auto bg-[#052A1F] py-8 rounded-xl ">
       <div className="w-11/12 md:w-4/5 mx-auto text-center">
         {/* Top Label */}
         <p className="text-sm text-[#DEFFB9] uppercase tracking-widest mb-2">

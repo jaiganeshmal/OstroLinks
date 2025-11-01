@@ -29,26 +29,26 @@ const projects = [
 
 const SolarProjects = () => {
   return (
-    <section className="bg-[#F8FCFA] text-gray-900 py-10 px-4 md:px-8">
+    <section className="bg-[#F8FCFA] text-gray-900 py-8 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-6">
           <Link
             to="#"
             className="inline-block text-sm text-[#19745A] border border-[#19745A] rounded-full px-4 py-1 uppercase tracking-wide hover:bg-[#19745A] hover:text-white transition duration-300"
           >
             Our Projects
           </Link>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#052A1F] mt-4 leading-snug">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#052A1F] mt-2 leading-snug">
             Proven solar solutions across every sector
           </h2>
-          <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+          <p className="text-gray-600  max-w-2xl mx-auto text-sm md:text-base">
             Discover how our solar innovations are transforming industries worldwide.
           </p>
         </div>
 
         {/* Project Cards */}
-        <div className="flex flex-col gap-24">
+        <div className="flex flex-col gap-8">
           {projects.map((project, index) => (
             <div
               key={project.id}
@@ -58,7 +58,7 @@ const SolarProjects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[480px] object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-[450px] object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
 

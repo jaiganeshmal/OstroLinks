@@ -29,7 +29,7 @@ const experts = [
 
 const OurExperts = () => {
   return (
-    <section className="w-[96%] mx-auto bg-[#042b20] text-white py-10 rounded-2xl">
+    <section className="w-[96%] mx-auto bg-[#042b20] text-white py-8 rounded-2xl">
       <div className="max-w-7xl mx-auto text-center px-4 md:px-8">
         {/* Section Tag */}
         <button className="text-sm font-medium border border-[#66FFB2] rounded-full px-6 py-2 text-[#66FFB2] uppercase tracking-wider mb-3 hover:bg-[#66FFB2] hover:text-[#042b20] transition duration-300 shadow-sm hover:shadow-[0_0_12px_#66FFB2]">
