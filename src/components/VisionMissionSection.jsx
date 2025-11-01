@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa6"; // ✅ for tick icons
+import { FaCheck } from "react-icons/fa6";
 
 const VisionMissionSection = () => {
   return (
@@ -55,7 +55,7 @@ const VisionMissionSection = () => {
 
         {/* RIGHT BOX */}
         <div
-          className="bg-cover bg-center rounded-2xl"
+          className="bg-cover bg-center rounded-2xl md:h-auto h-[50vh]"
           style={{
             backgroundImage:
               "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=60')",

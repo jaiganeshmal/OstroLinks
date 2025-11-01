@@ -59,6 +59,7 @@ const SolarProjects = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-[480px] object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
               />
 
               {/* Overlay Card */}

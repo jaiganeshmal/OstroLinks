@@ -45,6 +45,7 @@ const FaqSection = () => {
               src="https://img.freepik.com/free-photo/portrait-smiling-engineer-standing-near-solar-panels_1262-14874.jpg?w=800"
               alt="Solar expert"
               className="w-full h-[420px] object-cover"
+              loading="lazy"
             />
           </div>
 

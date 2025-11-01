@@ -81,6 +81,7 @@ const ClientTestimonials = () => {
                       src={item.image}
                       alt={item.name}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                     <button className="absolute inset-0 flex items-center justify-center bg-black/40 text-white text-xs font-medium">
                       <FiPlayCircle className="mr-1" /> Play Video

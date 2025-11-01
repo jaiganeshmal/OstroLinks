@@ -22,6 +22,7 @@ const AgendaSection = () => {
             src='https://oc-static.poweredbyproctors.co.uk/public/images/wp/18/07/03/EU_-offshore_wind_farm.jpg?VersionId=GDsRp57WG0drtsS8J85CMbnzb07cx_Zu'
             alt="Agenda"
             className="w-full h-full object-cover"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-[#006d6d]/20"></div>
         </div>

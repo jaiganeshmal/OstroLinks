@@ -23,6 +23,7 @@ const Footer = () => {
               src={assets.logo}
               alt="OstroLinks Logo"
               className="size-10 object-contain"
+              loading="lazy"
             />
             <h2 className="text-2xl font-semibold tracking-wide text-white">
               Ostro<span className="text-[#DEFFB9]">Links</span>
@@ -38,7 +39,7 @@ const Footer = () => {
           <div className="space-y-3 text-sm">
             <p className="flex items-center gap-2 text-gray-200">
               <FaPhone size={14} className="text-[#DEFFB9]" />
-              +92 300 1234567
+              +92 311 7117234
             </p>
             <p className="flex items-center gap-2 text-gray-200">
               <FaEnvelope size={14} className="text-[#DEFFB9]" />

@@ -53,6 +53,7 @@ const OurExperts = () => {
                 src={item.image}
                 alt={item.name}
                 className="w-full h-[370px] object-cover transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
               />
 
               {/* Overlay */}

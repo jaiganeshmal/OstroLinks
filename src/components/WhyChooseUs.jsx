@@ -46,6 +46,7 @@ const WhyChooseUs = () => {
               src="https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/cta-image.jpg" // replace with your own image
               alt="Solar Team"
               className="w-full h-[300px] object-cover"
+              loading="lazy"
             />
           </div>
 
